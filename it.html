@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Sector</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* Style the header */
+        
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        /* Container for flexboxes */
+        
+        section {
+            display: -webkit-flex;
+            display: flex;
+        }
+        /* Style the navigation menu */
+        
+        nav {
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            background: #ccc;
+            padding: 20px;
+        }
+        /* Style the list inside the menu */
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        /* Style the content */
+        
+        article {
+            -webkit-flex: 3;
+            -ms-flex: 3;
+            flex: 3;
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+        /* Style the footer */
+        
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+        
+        @media (max-width: 600px) {
+            section {
+                -webkit-flex-direction: column;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Code with YR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="it.html">Web Development</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Content
+                </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">youtube</a>
+                        <a class="dropdown-item" href="#">Up coming Content</a>
+
+                        <a class="dropdown-item" href="#">Write for us</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <header>
+        <h2>Web-Development</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <p>
+                    Most Important Topics in this module
+                </p>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <!-- <img src="img/bg003.jpg" alt="" class=""> -->
+
+
+            </ul>
+        </nav>
+
+        <article>
+            <h2>Web Developer must have understanding of HTML,CSS,and JavaScript.</h2>
+            <!-- <img src="img/img_frontend.jpg" class="mx-auto d-block"> -->
+            <a href="/img/img_frontend.jpg" target="_blank" class="btn bg-primary text-white"> Get Full Map</a>
+            <p class="card-text"><small class="text-muted">Chart created by GitHub user Kamranahmedse:
+            https://github.com/kamranahmedse
+</small></p>
+
+            <p>
+                <h3 style="font-weight: bolder;">Basic</h3>
+                Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web-based internet applications, electronic businesses, and social
+                network services
+            </p>
+            <p>
+                <h3 style="font-weight: bolder;">scope in future</h3>
+                Web development is a great career choice. You can either be a front-end developer or a back-end developer, or even both. You should have a general programming skill set to begin your career in the web world. ... Web Services
+            </p>
+            <p>
+                <h3 style="font-weight: bolder;">Salery</h3>
+
+                <li><a>Web Designer: $76,000</a></li>
+                <li><a>Web Developer: $91,000</a></li>
+                <li><a>Java Web Developer: $88,000</a></li>
+                <li><a>PHP Web Developer: $81,000</a></li>
+
+                <li>
+                    <a></a>.Net Web Developer: $77,000</a>
+                </li>
+
+                <li><a>Websphere Developer: $107,000</a></li>
+
+            </p>
+            <p class="card-text"><small class="text-muted">Source: Indeed.com</small></p>
+        </article>
+    </section>
+
+    <footer>
+        <p>Copyright @ 2020 By WebDesire</p>
+    </footer>
+</body>
+
+</html>
